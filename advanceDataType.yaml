@@ -1,0 +1,30 @@
+student : !!seq
+ - apple
+ - mango
+ - litchi
+ - pineapple
+
+# if some of the keys of sequence are empty then it is called sparse sequence
+sparse seq :
+ - hey
+ - hello
+ - 
+ - check
+ - null
+ - hmm
+ - 
+
+# key : value are called maps
+name : Akash Singh Panwar
+#nested map
+role : 
+  Office : inter
+  College : student
+
+components : &base
+  favFruit : mango
+  dislikes : [apple, grapes]
+
+person1 : 
+  name : Akash
+  <<: *base

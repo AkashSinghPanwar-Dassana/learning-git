@@ -1,0 +1,23 @@
+# wohooooo
+courses : 
+  courseName : "Django backend developer" # string
+  version : 1.5.6
+  price : &price 199 # i am saving the price value in &(variable name) in price value
+  public  : true # boolean
+  description : this has to be the best course on internet # string
+  releaseDate : 2022-09-05 # yyyy-mm-dd this is the format of yaml
+  preEnroll : null
+  tags : # this is an array in yaml
+    - python
+    - web development
+    - backend
+  courseTeachingAssistants : ["Akash", "Vishal", "Neeraj", "Kartik"] # this is an array as well 
+  teachingAssistantDetails : # list of objects
+    - {name : "Akash",email : "2017akku@gmail.com",role : "content admin"}
+    - {name : "Vishal", email : "vishal@gmail.com", role : "instructor"}
+    - {name : "Neeraj", email : "neeraj123@gmail.com", role : "leacturer"}
+    - {name : "Kartik", email : "kartik243@gmail.com", role : "devops"}
+  about : > #  > symbol removes all the indention for all the lines
+    This course is about backend where
+    you will be using DJango
+  processPayment : *price 

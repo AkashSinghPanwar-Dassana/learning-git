@@ -1,0 +1,11 @@
+---
+School : 
+- name : DPS
+  principal : someone
+  Students : 
+  - name : Akash Singh Panwar
+    rollNumber : 21
+    marks : 98
+  - name : Akshay
+    rollNumber : 22
+    marks : 94

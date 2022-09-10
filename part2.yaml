@@ -1,0 +1,14 @@
+# separating the documents use '---'
+# ending the documents use '...'
+#list
+- apple
+- mango
+- banana
+- pineapple
+---
+cities: 
+ - New Delhi
+ - Jaipur
+ - GandhiNagar
+ - Dehradun
+---

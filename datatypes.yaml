@@ -1,0 +1,23 @@
+name : "Akash Singh Panwar"
+state : 'Uttarakhand'
+city : Dehradun
+
+# boolean for false you can use n, N, false, False, FALSE
+# boolean for true you can use y, Y, true, true, TRUE
+
+
+# specify the type
+zero : !!int 0
+positive : !!int 54
+negative : !!int -56
+binaryNumbers : 0b1101
+ocatalNumbers : 0674
+hexaNumber : 0x43458
+commaValues : +560_000 
+
+# floating point numbers
+marks : !!float 54.645
+infinity : !!float .inf
+# not a number
+notANumber : .nan
+
